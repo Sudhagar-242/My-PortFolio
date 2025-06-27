@@ -85,9 +85,8 @@ body {
 }
 
 .hiderup {
-  animation: hiderzoom ease-in;
+  animation: hiderup ease-in;
   animation-timeline: view(80vh 0vh);
-  animation-delay: 1s;
 }
 
 @keyframes hiderup {
