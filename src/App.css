@@ -85,7 +85,7 @@ body {
 }
 
 .hiderup {
-  animation: slidein ease-in;
+  animation: hiderzoom ease-in;
   animation-timeline: view(80vh 0vh);
   animation-delay: 1s;
 }
