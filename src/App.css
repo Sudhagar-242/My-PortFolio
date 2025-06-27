@@ -65,7 +65,7 @@ body {
 
 .hiderzoom {
   animation: hiderzoom linear;
-  animation-timeline: view(70% 0%);
+  animation-timeline: view(70vh 0vh);
 }
 
 .hiderzoomquick {
@@ -86,7 +86,7 @@ body {
 
 .hiderup {
   animation: hiderup linear;
-  animation-timeline: view(80vh 0vh);
+  animation-timeline: view(80% 0%);
   animation-delay: 1s;
 }
 
