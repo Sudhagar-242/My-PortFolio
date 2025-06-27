@@ -15,7 +15,7 @@ function Resume() {
         <div className=" flex-2/6 relative h-[60%] mx-[5%] mt-[5%]">
           <div className="m-auto mt-[5%] h-full w-fit group relative rounded-lg">
             <img
-              src="/SUDHAGAR RESUME_pages-to-jpg-0001.jpg"
+              src="/SUDHAGAR RESUME.jpg"
               alt="resume"
               className=" h-full relative rounded-lg hiderzoomquick"
             />
