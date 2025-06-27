@@ -1,0 +1,144 @@
+@import url("https://fonts.googleapis.com/css2?family=Bebas+Neue&family=Zilla+Slab:ital,wght@0,300;0,400;0,500;0,600;0,700;1,300;1,400;1,500;1,600;1,700&display=swap");
+@import "tailwindcss";
+
+html {
+  scroll-behavior: smooth;
+  margin: 0;
+  padding: 0;
+}
+
+@theme {
+  --color-coolblue-100: #1b2631;
+  --color-coolblue-200: #3f4e4f;
+  --color-coolblue-300: #a5c8d6;
+  --color-coolblue-400: #f0f4f8;
+  --color-coolblue-500: #d9e4e0;
+  --font-zilla: Zilla Slab, serif;
+  --font-nue: Bebas Neue, sans-serif;
+
+  --animate-shake: shake 1s linear forwards;
+}
+
+body {
+  @apply m-0 bg-coolblue-100 text-coolblue-500;
+}
+#root {
+  @apply px-[8%] pt-[1%] w-full;
+}
+
+.Header {
+  @apply flex justify-between  w-full p-[1.5%] rounded-2xl px-[2%] mb-[5%];
+}
+
+.normalNav {
+  @apply flex justify-between text-center;
+}
+
+.normalNav a {
+  @apply list-none w-1/7 text-coolblue-500 hover:bg-coolblue-400 hover:text-coolblue-100 box-border p-2 rounded-2xl font-bold text-xl transition-all duration-500 delay-100;
+}
+
+.mobileNav {
+  @apply md:hidden bg-coolblue-200 h-svh fixed z-50 top-15 left-0 w-full flex flex-col justify-between items-center;
+}
+
+.mobileNav a {
+  @apply text-2xl list-none;
+}
+
+.SkillTitle {
+  @apply md:text-2xl  font-mono m-3;
+}
+
+.Skills {
+  @apply flex w-[70%] h-9 justify-evenly gap-3;
+}
+
+.Skills a {
+  @apply md:w-52 px-1.5 box-border border-2 text-center rounded-2xl py-1;
+}
+
+.text-outline {
+  -webkit-text-stroke: 1px rgb(255, 255, 255);
+  color: transparent;
+}
+
+.hiderzoom {
+  animation: hiderzoom linear;
+  animation-timeline: view(70vh 0vh);
+}
+
+.hiderzoomquick {
+  animation: hiderzoom linear;
+  animation-timeline: view(100% 0%);
+}
+
+@keyframes hiderzoom {
+  from {
+    scale: 0.3;
+    opacity: 0;
+  }
+  to {
+    scale: 1;
+    opacity: 1;
+  }
+}
+
+.hiderup {
+  animation: hiderup linear;
+  animation-timeline: view(80vh 0vh);
+  animation-delay: 1s;
+}
+
+@keyframes hiderup {
+  from {
+    transform: translateY(6rem);
+    opacity: 0;
+  }
+  to {
+    transform: translateY(0rem);
+    opacity: 1;
+  }
+}
+
+.zoomup {
+  animation: zoomup 0.5s linear;
+}
+
+@keyframes zoomup {
+  from {
+    transform: translateY(6rem);
+    opacity: 0;
+  }
+  to {
+    transform: translateY(0rem);
+    opacity: 1;
+  }
+}
+
+.slidein {
+  animation: slidein 0.5s linear;
+}
+
+@keyframes slidein {
+  from {
+    transform: translateY(-6rem);
+    opacity: 0;
+  }
+  to {
+    transform: translateY(0rem);
+    opacity: 1;
+  }
+}
+
+@keyframes shake {
+  0% {
+    transform: rotate(0deg);
+  }
+  50% {
+    transform: rotate(10deg);
+  }
+  100% {
+    transform: rotate(-10deg);
+  }
+}
