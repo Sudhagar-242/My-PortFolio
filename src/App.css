@@ -85,7 +85,7 @@ body {
 }
 
 .hiderup {
-  animation: hiderup ease-in;
+  animation: shake ease-in;
   animation-timeline: view(80vh 0vh);
   animation-delay: 1s;
 }
