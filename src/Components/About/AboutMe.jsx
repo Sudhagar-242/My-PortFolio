@@ -11,7 +11,7 @@ function AboutMe() {
       <div className="my-6 text-xl font-mono leading-8 tracking-wider font-bold p-[2%]">
         {Paragraph.map((para) => (
           <p
-            className="bg-coolblue-200 text-coolblue-300 hiderup mb-5"
+            className="bg-coolblue-200 text-coolblue-300 hiderup mb-5 inline-block"
             key={Math.random()}
           >
             {para}
