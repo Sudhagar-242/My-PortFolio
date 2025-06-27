@@ -86,7 +86,7 @@ body {
 
 .hiderup {
   animation: hiderup linear;
-  animation-timeline: view(80% 0%);
+  animation-timeline: view();
   animation-delay: 1s;
 }
 
