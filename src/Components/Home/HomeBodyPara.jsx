@@ -27,7 +27,7 @@ function BodyPara() {
         scrollcolor={"group-hover:bg-coolblue-400"}
         icon={<LuMail />}
         type="Email"
-        href="https://mail.google.com/mail/u/0/#inbox?compose=GTvVlcSMTFFKJfSHrTXGFQndLgQLvLNxQcRkCdhkgWWkqsVPRkvjwWHjTfCLFHXTqQcdwWknwQKdD"
+        href="mailto:sudhagar24205@gmailcom"
       />
     </div>
   );
