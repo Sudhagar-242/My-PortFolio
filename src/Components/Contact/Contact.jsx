@@ -35,7 +35,7 @@ function Contact() {
           scrollcolor={"group-hover:bg-coolblue-100"}
           icon={<LuMail />}
           type="Email"
-          href="https://mail.google.com/mail/u/0/#inbox?compose=GTvVlcSMTFFKJfSHrTXGFQndLgQLvLNxQcRkCdhkgWWkqsVPRkvjwWHjTfCLFHXTqQcdwWknwQKdD"
+          href="mailto:sudhagar24205@gmail.com"
         />
       </div>
     </section>
